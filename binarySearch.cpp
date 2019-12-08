@@ -26,7 +26,7 @@ int main()
 	return 0;
 }
 
-
+//------------------------------------------------------------------------------------------------
 int binarySearch(int array[], int numElems, int value)	// function heading
 {
 	int first = 0;				// First element of list
