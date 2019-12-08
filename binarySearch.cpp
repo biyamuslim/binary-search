@@ -1,6 +1,3 @@
-// This program demonstrates a Binary Search
-
-// PLACE YOUR NAME HERE
 
 #include <iostream>
 using namespace std;
@@ -52,5 +49,4 @@ int binarySearch(int array[], int numElems, int value)	// function heading
 								// the array and search the second
 	}
 
-	return -1;	// indicates that value is not in the array
-}
+	return -1;	
