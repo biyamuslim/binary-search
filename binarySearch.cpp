@@ -46,7 +46,7 @@ int binarySearch(int array[], int numElems, int value)	// function heading
 
 		else
 			first = middle + 1;	// toss out the first remaining half of
-								// the array and search the second
+								
 	}
 
 	return -1;	
