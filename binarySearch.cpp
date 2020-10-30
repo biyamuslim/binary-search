@@ -7,7 +7,7 @@ using namespace std;
 int binarySearch(int[], int, int);	// function prototype 
 const int SIZE = 16;
 
-int main()
+int main() //main
 {
 	int found, value;
 
@@ -17,8 +17,6 @@ int main()
 	cout << "Enter an integer to search for:" << endl;
 	cin >> value;
 
-	found = binarySearch(array, SIZE, value);// function call
-	
 
 	if (found == -1)
 		cout << "The value " << value << " is not in the list" << endl;
