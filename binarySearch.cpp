@@ -1,4 +1,6 @@
-
+/*
+A simple binary search program to which when you give array input
+*/
 #include <iostream>
 using namespace std;
 
@@ -15,7 +17,8 @@ int main()
 	cout << "Enter an integer to search for:" << endl;
 	cin >> value;
 
-	found = binarySearch(array, SIZE, value);
+	found = binarySearch(array, SIZE, value);// function call
+	
 
 	if (found == -1)
 		cout << "The value " << value << " is not in the list" << endl;
