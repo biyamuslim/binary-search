@@ -34,8 +34,8 @@ int binarySearch(int array[], int numElems, int value)	// function heading
 {
 	int first = 0;				// First element of list
 	int last = numElems - 1;	// last element of the list
-	int middle;					// variable containing the current
-								// middle value of the list
+	int middle;					// variable containing the current middle value of the list
+								
 
 	while (first <= last)
 	{
